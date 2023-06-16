@@ -1,0 +1,90 @@
+Primitive and non primitive data type
+
+========= Primitive ========= ImMutable
+Number, string, boolean, undefine, null, symbol, bigint
+
+let name = "ameen";
+let name2 = name;
+
+in javascript name2 create new space in memory even if name and name2 have same value
+
+
+========= Non Primitive ========= Mutable
+
+Object, Array, Function
+
+
+let person = {
+    name: "Ameen",
+    age: 19,
+}
+
+let person2 = person;
+
+in javascript person2 does not take new space person2 refering same object in varibale
+
+=====================================================
+
+Mutability and non immutability in javascript
+
+========= Mutable =========
+
+something that can be changed or new property be added to 
+
+example: object
+
+========= ImMutable =========
+
+something that can not be changed or added to
+
+
+
+
+DataStructure 
+
+ There are four main data structure in JavaScript
+ 1)	Array
+ 2)	Object
+ 3)	Map
+ 4)	Set
+
+========= Set =========
+
+in a set duplicate value not allow
+deleting and finding is trivial and fast
+order is not guaranteed
+
+set is the best choice if you want to no duplicate value and 
+don't care about the order and position
+
+========= Array vs Set =========
+
+99% of our code use Array
+you can always use Array
+must use if you want order  and or duplicate value
+
+
+sets can simplify data access e.g finding, deleting compare to Array
+
+========= Object =========
+
+unordered key value pair of data
+Element access via key (property name);
+not iterable (Only with for in loop)
+keys are unique, values are not
+
+========= Map =========
+
+order key value pair of data
+Element access via key
+iterable (you can use for in loop)
+keys are unique, values are not
+keys can be anything (incl. reference values like Array)
+pure data storage optimized for data access
+
+========= Linked List =========
+
+in linked list we don't work with indexes like an array
+Linked list have a pointer at he next element in line and that continue
+every element knowns about the next element
+this allow for efficient re-sizing and insertion at start and end of the list

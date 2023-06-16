@@ -1,0 +1,43 @@
+Four main pillar of object oriented programming
+
+1) Encapsulation
+2) Abstraction 
+3) Inheritance
+4) polymorphism
+
+
+
+1) Encapsulation ==============
+
+Using Encapsulation we group related variables and functions together
+and it can reduce complexity
+and also increase reusability
+
+2) Abstraction ==============
+
+hide the detail and complexity and show only the essential this techniques
+reduce complexity and also isolate the impact of changes
+
+3) Inheritance ==============
+
+Eliminate redundant (redundant meaning Bekar) code
+
+4) polymorphism ==============
+
+Refactor Ugly switch/case statements
+
+
+we will learn 
+
+. Creating object 
+. Factories and constructor
+. Primitive and referance type
+. Working with properties
+. Private properties
+. Getters / setters
+
+
+In OOP word property mean to hold value and the word method mean some logic
+
+
+https://youtu.be/PFmuCDHHpwk (45:00)
